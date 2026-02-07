@@ -135,7 +135,8 @@ export default function Home() {
                 Начать обучение <ArrowRight className="group-hover:translate-x-1 transition" />
               </button>
               <div className="text-stone-400 text-sm font-medium">
-                🇷🇺 РФ пока не доступно <br/> 🇰🇿 Только KZ карты
+                Для оплаты из других стран<br />
+                свяжитесь с нами в Telegram: <a href="https://t.me/slav728" target="_blank" rel="noopener noreferrer" className="font-semibold text-red-700">@slav728</a>
               </div>
             </div>
           </FadeIn>
@@ -221,14 +222,16 @@ export default function Home() {
 
             <div className="bg-red-700 p-12 md:p-16 text-white flex flex-col justify-between relative overflow-hidden">
               <div className="relative z-10">
-                <h4 className="text-2xl font-bold mb-4 opacity-90">Внимание, ограничения:</h4>
+                <h4 className="text-2xl font-bold mb-4 opacity-90">Важная информация по оплате:</h4>
                 <p className="opacity-80 mb-8 leading-relaxed">
-                  В связи с особенностями платежных шлюзов, мы принимаем оплату только с казахстанских карт.
+                  Оплата через сайт доступна для карт Казахстана. Если вы находитесь в другой стране,
+                  мы поможем подобрать удобный способ оплаты индивидуально.
                 </p>
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-                  <div className="font-bold mb-2 flex items-center gap-2">🚫 РФ пока недоступно</div>
+                  <div className="font-bold mb-2 flex items-center gap-2">💬 Оплата из других стран</div>
                   <p className="text-sm opacity-80">
-                    К сожалению, мы пока не можем принимать платежи из России. Мы работаем над этим.
+                    Напишите нам в Telegram: <a href="https://t.me/slav728" target="_blank" rel="noopener noreferrer" className="underline font-semibold">@slav728</a>,
+                    мы подскажем доступные варианты оплаты.
                   </p>
                 </div>
               </div>
