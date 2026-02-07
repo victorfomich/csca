@@ -244,6 +244,10 @@ export default function Home() {
         </div>
       </section>
 
+
+
+
+
       {/* FOOTER */}
       <footer className="bg-stone-900 text-stone-400 py-12 text-center">
         <div className="container mx-auto px-6">
