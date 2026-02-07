@@ -248,6 +248,17 @@ export default function Home() {
              CSCA Prep
           </div>
           <p className="text-xs opacity-50">© 2026 Все права защищены. ИП (Алексей)</p>
+          <div className="mt-4 text-sm">
+            <span className="opacity-70">Контакты для связи:</span>{" "}
+            <a
+              href="https://t.me/slav728"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-semibold hover:underline"
+            >
+              @slav728
+            </a>
+          </div>
         </div>
       </footer>
 
