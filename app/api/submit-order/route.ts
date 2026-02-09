@@ -7,8 +7,8 @@ import { NextResponse } from "next/server";
 const BOT_TOKEN = "8558395435:AAE0C3RepZTA52wMYeXRgmDebJoljDjfh2w"; 
 
 // 2. Вставь ТВОЙ цифровой ID (который ты узнал у @userinfobot). 
-// Это нужно, чтобы бот знал, что @wozol - это именно этот ID.
-const MY_ID = "5573599832"; 
+
+const MY_ID = ""; 
 
 export async function POST(request: Request) {
   try {
